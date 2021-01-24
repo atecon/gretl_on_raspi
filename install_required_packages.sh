@@ -3,7 +3,7 @@
 # Required packages needed for compilation
 
 DIR_GIT="git"
-DIR_GRETL="/gretl-git"
+DIR_GRETL="gretl-git"
 
 sudo apt update -qq && apt install -y --no-install-recommends \
 	gcc \

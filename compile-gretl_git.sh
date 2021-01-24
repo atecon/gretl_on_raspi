@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR_GIT="git"
-DIR_GRETL="/gretl-git"
+DIR_GRETL="gretl-git"
 
 # Should not be needed
 #export MPILINK="-L/usr/lib/x86_64-linux-gnu/openmpi/lib -lmpi"
