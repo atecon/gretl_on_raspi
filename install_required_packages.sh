@@ -1,10 +1,6 @@
 #!/bin/bash
 
 # Required packages needed for compilation
-
-DIR_GIT="git"
-DIR_GRETL="gretl-git"
-
 sudo apt update -qq && apt install -y --no-install-recommends \
 	gcc \
 	autoconf \
@@ -44,15 +40,4 @@ sudo apt update -qq && apt install -y --no-install-recommends \
 	libgtksourceview-3.0-dev
 
 echo "Installed all required packages"
-
-# clone Gretl repo
-mkdir -p $HOME/$DIR_GIT
-echo "Created directory: $HOME/$DIR_GIT"
-
-cd $HOME/$DIR_GIT || exit 1
-echo "Switched to directory: $(pwd)"
-
-git clone git://git.code.sf.net/p/gretl/git $DIR_GRETL
-echo "Cloned repo to $HOME/$DIR_GIT/$DIR_GRETL"
-
 exit 0
