@@ -8,6 +8,7 @@ DIR_GRETL="$DIR_GRETL"
 
 
 cd ~/$DIR_GIT/$DIR_GRETL || exit 1
+echo "Switched to directory: $(pwd)."
 
 git pull
 make clean
