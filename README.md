@@ -6,7 +6,7 @@ I successfully compiled and ran Gretl (v2021a) on a Raspi 3b+. I am pretty sure 
 
 Execute ```install_required_packages.sh```:
 ```
-sudo install_required_packages.sh
+sudo sh install_required_packages.sh
 ```
 This script installs all packages required for compilation, and clones the gretl repository to the local folder in ```~/git/gretl-git```.
 
