@@ -15,9 +15,7 @@ sudo apt update -qq && apt install -y --no-install-recommends \
 	libtool \
 	flex \
 	bison \
-	gcc-doc \
 	libc6-dev \
-	libc-dev \
 	gfortran \
 	gettext \
 	libglib2.0-dev \
