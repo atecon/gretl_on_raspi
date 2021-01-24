@@ -46,10 +46,10 @@ sudo apt update -qq && apt install -y --no-install-recommends \
 echo "Installed all required packages"
 
 # clone Gretl repo
-mkdir -p ~/$DIR_GIT
+mkdir -p $HOME/$DIR_GIT
 echo "Created directory: $(pwd)"
 
-cd ~/$DIR_GIT || exit 1
+cd $HOME/$DIR_GIT || exit 1
 echo "Switched to directory: $(pwd)"
 
 git clone git://git.code.sf.net/p/gretl/git $DIR_GRETL

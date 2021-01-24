@@ -7,7 +7,7 @@ DIR_GRETL="gretl-git"
 #export MPILINK="-L/usr/lib/x86_64-linux-gnu/openmpi/lib -lmpi"
 
 
-cd ~/$DIR_GIT/$DIR_GRETL || exit 1
+cd $HOME/$DIR_GIT/$DIR_GRETL || exit 1
 echo "Switched to directory: $(pwd)"
 
 git pull
