@@ -2,8 +2,8 @@
 
 # Required packages needed for compilation
 
-DIR_GIT="/git"
-DIR_GRETL="$DIR_GRETL"
+DIR_GIT="git"
+DIR_GRETL="/gretl-git"
 
 sudo apt update -qq && apt install -y --no-install-recommends \
 	gcc \
@@ -50,6 +50,6 @@ mkdir -p ~/$DIR_GIT
 cd ~/$DIR_GIT || exit 1
 git clone git://git.code.sf.net/p/gretl/git $DIR_GRETL
 
-echo "Cloned repo to ~/$PATH_TO_GIT"
+echo "Cloned repo to ~/$DIR_GIT/$DIR_GRETL"
 
 exit 0
